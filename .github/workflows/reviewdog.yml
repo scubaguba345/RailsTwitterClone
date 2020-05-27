@@ -1,8 +1,8 @@
-name: rubocop with reviewdog
+name: reviewdog
 on: [pull_request]
 jobs:
   reviewdog:
-    name: reviewdog
+    name: rubocop reviewdog
     runs-on: ubuntu-latest
     steps:
       - name: Setup reviewdog
